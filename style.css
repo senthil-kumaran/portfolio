@@ -159,6 +159,7 @@ nav a {
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: repeat(4, minmax(min-content, 4rem));
+  column-gap: 3rem;
   align-items: center;
   justify-content: center;
   padding: 0.5rem;
@@ -375,7 +376,7 @@ nav a {
 
 .biodata-card {
   row-gap: 5rem;
-  border: 1px solid #ffffff;
+  border: 3px solid #ffffff;
 }
 
 .footer {
